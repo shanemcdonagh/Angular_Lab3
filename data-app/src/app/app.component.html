@@ -1,0 +1,10 @@
+<!-- Body of index.html-->
+<h2>Students</h2>
+
+<ul>
+  <li *ngFor="let student of students">{{student.id}},{{student.name}},{{student.address}}</li>
+</ul>
+
+<h2>Weather</h2>
+
+{{weather[0].main}},{{weather[0].description}}
